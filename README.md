@@ -2,7 +2,7 @@
 
 [Visit QR_code_generator Website](https://theprabhatraj.github.io/QR_code_generator/)
 
-![](https://github.com/theprabhatraj/QR_code_reader/blob/main/qrgenerator.png)
+![](https://github.com/theprabhatraj/QR_code_generator/blob/main/qrgenerator.png)
 
 QR Code Generator is a web application built using HTML, CSS, JavaScript and QRserver API. It allows users to generate QR codes for any word or URL. The user interface is simple and easy to use, making it accessible for anyone to use.
 
