@@ -2,7 +2,7 @@
 <!-- Coding By CodingNepal - youtube.com/codingnepal -->
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">  
+    <meta charset="utf-8">
     <title>QR Code Generator | CodingNepal</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,9 @@
         <p>Paste a url or enter text to create QR code</p>
       </header>
       <div class="form">
-        <input type="text" spellcheck="false" placeholder="Enter text or url">
+        <input id="qrData" type="text" spellcheck="false" placeholder="Enter text or url">
+        <input id="qrBgColor" type="text" spellcheck="false" placeholder="Enter background color (255-255-255)">
+        <input id="qrColor" type="text" spellcheck="false" placeholder="Enter code color (0-0-0)">
         <button>Generate QR Code</button>
       </div>
       <div class="qr-code">
@@ -22,7 +24,7 @@
       </div>
     </div>
 
+    <script src="https://unpkg.com/imask"></script>
     <script src="script.js"></script>
-
   </body>
 </html>
